@@ -1,0 +1,23 @@
+{
+    "name": "thiago/sisgest",
+    "description": "projeto1",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/",
+            "core\\": "core/"
+        },
+        "files":[
+            "config/config.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Thiago Silva"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php":">=7.2"
+    }
+}
